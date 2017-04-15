@@ -1,0 +1,155 @@
+div {
+  display: block;
+}
+#footer {
+  position:absolute;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.top_head {
+  display:inline;
+
+  float:right;
+  margin-right:0px;
+  margin-top:0px;
+}
+#top_nav {
+  border: 2px dashed black;
+  height:40px;
+  width:293px;
+  position: absolute;
+  margin-top:-10px;
+  margin-right:-10px;
+  margin-left:1055px;
+  right:10px;
+}
+.main {
+  border: 2px dashed blue;
+  width:100%;
+  height:645px;
+}
+#t_holder {
+  height:233px;
+  margin-top: 89px;
+  border:2px dashed red;
+}
+#logo {
+  margin:139px auto;
+
+  border:2px dashed yellow;
+  background: url(google_logo.png) no-repeat;
+  background-size: 272px 92px;
+  height:92px;
+  width:272px;
+}
+.forms {
+  height:317px;
+  border: 2px dashed orange;
+}
+.search_bar {
+  margin:auto;
+  height:44px;
+  width:600px;
+
+  border-radius:2px;
+  box-sizing:border-box;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+#submits {
+  margin:auto;
+  width: 300px;
+  height: 30px;
+  border: 2px dashed blue;
+  text-align: center;
+  padding-top:18px;
+}
+#submits input {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius:2px;
+  font-family:Arial, sans-serif;
+  font-size: 13px;
+  font-weight:bold;
+  text-align: center;
+  padding: 0 16px;
+  margin: 11px 4px;
+  min-width: 54px;
+  height: 36px;
+  line-height: 27px;
+  color: #757575;
+}
+.search_bar input {
+  margin-top: 6px;
+  margin-left: 16px;
+  width: 503px;
+  height: 34px;
+  font: 16px arial,sans-serif;
+  border:none;
+  outline:none;
+}
+#s:hover, #l:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+#mic {
+  float:right;
+  margin-top:10px;
+  margin-right:10px;
+  height:23px;
+  width:17px;
+}
+#country {
+  color:#4285f4;
+  font:16px/16px roboto-regular, arial, sans-serif;
+  position:relative;
+  margin-left:750px;
+  bottom:155px;
+
+}
+#french {
+  text-align: center;
+  margin-top: 30px;
+  font-size:small;
+}
+a {
+  text-decoration: none;
+}
+#footer {
+  position:absolute;
+  border:1px solid #e4e4e4;
+  margin:145px 0 0 -10px;
+  height:40px;
+  width:1355px;
+  background-color: #f2f2f2;
+}
+.bottom {
+  display:flex;
+  list-style-type: none;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+
+}
+.bottom li a {
+  padding-left:27px;
+  color:#666;
+
+}
+
+#gmail {
+  padding-right: 15px;
+}
+#images {
+  padding-right: 15px;
+}
+#thing {
+  padding-right: 15px;
+}
+#bell {
+  padding-right: 15px;
+}
+#ben {
+  padding-right: 15px;
+}
