@@ -15,7 +15,7 @@ div {
   margin-top:0px;
 }
 #top_nav {
-  border: 2px dashed black;
+
   height:40px;
   width:293px;
   position: absolute;
@@ -25,19 +25,19 @@ div {
   right:10px;
 }
 .main {
-  border: 2px dashed blue;
+  border: 2px dashed white;
   width:100%;
   height:645px;
 }
 #t_holder {
   height:233px;
   margin-top: 89px;
-  border:2px dashed red;
+  border:2px dashed white;
 }
 #logo {
   margin:139px auto;
 
-  border:2px dashed yellow;
+
   background: url(google_logo.png) no-repeat;
   background-size: 272px 92px;
   height:92px;
@@ -45,7 +45,6 @@ div {
 }
 .forms {
   height:317px;
-  border: 2px dashed orange;
 }
 .search_bar {
   margin:auto;
@@ -61,7 +60,7 @@ div {
   margin:auto;
   width: 300px;
   height: 30px;
-  border: 2px dashed blue;
+
   text-align: center;
   padding-top:18px;
 }
@@ -100,6 +99,7 @@ div {
   margin-right:10px;
   height:23px;
   width:17px;
+  cursor: pointer;
 }
 #country {
   color:#4285f4;
@@ -120,10 +120,12 @@ a {
 #footer {
   position:absolute;
   border:1px solid #e4e4e4;
-  margin:145px 0 0 -10px;
+  margin:145px -10px -10px -10px;
   height:40px;
-  width:1355px;
+  width:1365px;
   background-color: #f2f2f2;
+  bottom: 10px;
+  right:10px;
 }
 .bottom {
   display:flex;
@@ -135,8 +137,12 @@ a {
 .bottom li a {
   padding-left:27px;
   color:#666;
-
 }
+#b_right {
+  margin-left:800px;
+}
+
+
 
 #gmail {
   padding-right: 15px;
