@@ -9,10 +9,12 @@ div {
 }
 .top_head {
   display:inline;
-
+  font-size:13px;
   float:right;
   margin-right:0px;
   margin-top:0px;
+  font-family: arial, sans-serif;
+  cursor: pointer;
 }
 #top_nav {
 
@@ -23,6 +25,7 @@ div {
   margin-right:-10px;
   margin-left:1055px;
   right:10px;
+
 }
 .main {
   border: 2px dashed white;
@@ -141,11 +144,19 @@ a {
 #b_right {
   margin-left:800px;
 }
-
+#apps {
+  height:20px;
+  width:20px;
+}
+#bell {
+  height:25px;
+  width:25px;
+}
 
 
 #gmail {
   padding-right: 15px;
+
 }
 #images {
   padding-right: 15px;
@@ -157,5 +168,11 @@ a {
   padding-right: 15px;
 }
 #ben {
-  padding-right: 15px;
+  margin-right: 15px;
+  width:30px;
+  height:30px;
+  
+  border-radius: 100%;
+  background: url(ben.png);
+  background-size:contain;
 }
